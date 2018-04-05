@@ -1,16 +1,12 @@
-const menu = $('.menu');
-const button = $('.menu-button')
+//Using jQuery, select the menu component and the menu-button component
+const menu = $();
+const menuButton;
 
+//Create a callback that will be passed to the menuButton click event listener
+//Inside this callback a class should be either added or removed from menu
 const toggleMenu = () => {
-  menu.toggleClass('menu--open');
-  
-  //Stretch Goal #1. Animate the menu opening:
-  
-  // if(menu[0].style.left === '0px'){
-  //   menu.animate({ left: -350 }, 500);
-  // } else {
-  //   menu.animate({left: 0}, 500);
-  // }
+
 }
 
+//Using jQuery, add a click event to the button, passing it the toggleMenu function.
 button.click(toggleMenu);
