@@ -1,5 +1,5 @@
 //Using jQuery, select the menu component and the menu-button component
-const menu = $();
+const menu;
 const menuButton;
 
 //Create a callback that will be passed to the menuButton click event listener
@@ -8,5 +8,4 @@ const toggleMenu = () => {
 
 }
 
-//Using jQuery, add a click event to the button, passing it the toggleMenu function.
-button.click(toggleMenu);
+//Using jQuery, add a click event to the menuButton, passing it the toggleMenu function.
