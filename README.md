@@ -6,8 +6,9 @@ In this project we are going to be building a news feed reader. The goal is to h
 * jQuery:
   * Selector( `$()` )
   * Methods (map, find, text, hide, show, events, etc.)
-* CSS:
+* LESS:
   * import
+  * LESS compiler
 * Javascript:
   * ES6 classes and the constructor function.
 		
