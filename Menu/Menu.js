@@ -1,4 +1,4 @@
-//Using jQuery, select the menu component and the menu-button component
+//Using jQuery, select the menu element and the menu-button element
 const menu;
 const menuButton;
 
