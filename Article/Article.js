@@ -6,12 +6,12 @@ class Article {
   /* The constructor will take an element as it's only argument */
   constructor(element) {
     /* 
-      We need to make sure the elemnt being passed to us is a jQuery element.
+      We need to make sure the element being passed to us is a jQuery element.
       To do so, wrap the element in jQuery syntax. 
     */
     this.element = $();
     /* 
-      Using our new refernce to the element, find the expand button within 
+      Using our new reference to the element, find the expand button within 
       the element and set a new property on the Article class. 
     */
     this.expandButton;
